@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Abhishek Kumar — Senior Data Engineer with 4+ years experience in Azure, Databricks, PySpark, Delta Lake & Gen-AI.">
+<title>Abhishek Kumar — Senior Data Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ── BG Layers ── -->
+<div class="mesh-bg"></div>
+<div class="grid-overlay"></div>
+<div class="blob b1"></div>
+<div class="blob b2"></div>
+<div class="blob b3"></div>
+<div class="blob b4"></div>
+
+<!-- ── Custom Cursor ── -->
+<div class="cursor-dot"   id="curDot"></div>
+<div class="cursor-ring"  id="curRing"></div>
+
+<!-- ════════════ NAVBAR ════════════ -->
+<nav id="navbar">
+  <a href="#home" class="nav-brand">AK<span class="accent-dot">·</span></a>
+
+  <ul class="nav-menu" id="navMenu">
+    <li><a href="#home"       class="nav-item">Home</a></li>
+    <li><a href="#skills"     class="nav-item">Skills</a></li>
+    <li><a href="#experience" class="nav-item">Experience</a></li>
+    <li><a href="#projects"   class="nav-item">Projects</a></li>
+    <li><a href="#education"  class="nav-item">Education</a></li>
+    <li><a href="#contact"    class="nav-item">Contact</a></li>
+  </ul>
+
+  <div class="nav-right">
+    <a href="https://drive.google.com/file/d/1hCOZ-ZTKW2dgf6UnFIcG-d1BlJ14p9wx/view?usp=sharing"
+       target="_blank" class="btn-nav-cv">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+        <polyline points="7 10 12 15 17 10"/>
+        <line x1="12" y1="15" x2="12" y2="3"/>
+      </svg>
+      Download CV
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ════════════ HERO ════════════ -->
+<section id="home" class="hero-section">
+  <div class="container hero-grid">
+
+    <!-- Left: Text -->
+    <div class="hero-text">
+      <div class="hero-badge" data-anim="fade-up" data-delay="0">
+        <span class="live-dot"></span>
+        Available for opportunities
+      </div>
+
+      <h1 class="hero-heading" data-anim="fade-up" data-delay="100">
+        Hello, I'm<br>
+        <span class="gradient-text">Abhishek<br>Kumar</span>
+      </h1>
+
+      <p class="hero-role" data-anim="fade-up" data-delay="200">Senior Data Engineer</p>
+      <p class="hero-meta" data-anim="fade-up" data-delay="260">
+        4+ Years &nbsp;·&nbsp; Deloitte &amp; Capgemini &nbsp;·&nbsp; Bengaluru 🇮🇳
+      </p>
+
+      <div class="hero-actions" data-anim="fade-up" data-delay="340">
+        <a href="https://drive.google.com/file/d/1hCOZ-ZTKW2dgf6UnFIcG-d1BlJ14p9wx/view?usp=sharing"
+           target="_blank" class="btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7 10 12 15 17 10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          Download CV
+        </a>
+        <a href="https://github.com/abhishek-dataengineer" target="_blank" class="btn-secondary">
+          <img src="https://cdn.simpleicons.org/github/ffffff" width="16" height="16" alt="GitHub">
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/abhishek0709/" target="_blank" class="btn-secondary btn-li">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"  width="16" height="16" alt="LinkedIn">
+          LinkedIn
+          
+        </a>
+        <a href="https://www.youtube.com/@abkumar-yt" target="_blank" class="btn-yt">
+          <img src="https://cdn.simpleicons.org/youtube/ffffff" width="16" height="16" alt="YouTube">
+          YouTube
+        </a>
+      </div>
+
+      <div class="hero-stats" data-anim="fade-up" data-delay="420">
+        <div class="stat-item">
+          <span class="stat-num" data-count="4">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Years Exp</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-count="6">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-count="2">0</span>
+          <span class="stat-label">Companies</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-count="3">0</span>
+          <span class="stat-label">Certs</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right: 3D Profile Card -->
+    <div class="hero-card-wrap" data-anim="fade-up" data-delay="150">
+      <div class="card-perspective">
+        <div class="profile-card" id="profileCard">
+
+          <!-- Gradient top line -->
+          <div class="card-topbar"></div>
+          <!-- Shine sweep -->
+          <div class="card-shine"></div>
+
+          <!-- Circular photo -->
+          <div class="card-photo-section">
+            <div class="photo-orbit">
+              <div class="photo-orbit-inner">
+                <img src="images/profile.jpg" alt="Abhishek Kumar" class="profile-img" id="profileImg">
+              </div>
+            </div>
+            <div class="photo-glow-ring"></div>
+          </div>
+
+          <div class="card-content">
+            <h3 class="card-name">Abhishek Kumar</h3>
+            <p class="card-title">Senior Data Engineer</p>
+            <div class="card-chips">
+              <span class="chip">Azure</span>
+              <span class="chip">Databricks</span>
+              <span class="chip">PySpark</span>
+              <span class="chip">Python</span>
+              <span class="chip">SQL</span>
+              <span class="chip">Delta Lake</span>
+              <span class="chip">ADLS Gen2</span>
+              <span class="chip">LLM</span>
+              <span class="chip">Gen-AI</span>
+              <span class="chip">RAG</span>
+              <span class="chip">Vector-DB</span>
+              <span class="chip">AWS</span>
+            </div>
+            <div class="card-footer">
+              <span class="card-location">📍 Bengaluru</span>
+              <span class="card-available">
+                <span class="avail-dot"></span>
+                Available
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Scroll hint -->
+  <div class="scroll-hint">
+    <div class="scroll-bar"></div>
+    <span>scroll</span>
+  </div>
+</section>
+
+<!-- ════════════ SKILLS ════════════ -->
+<div class="section-divider"></div>
+<section id="skills">
+  <div class="container">
+
+    <div class="section-header scroll-reveal">
+      <p class="section-eyebrow">Technical Expertise</p>
+      <h2 class="section-title">Core Skills</h2>
+    </div>
+
+    <!-- Data Engineering Skills -->
+    <div class="skills-block scroll-reveal">
+      <p class="skills-category-label">Data Engineering & Cloud</p>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <img src="https://cdn.simpleicons.org/mysql/4479A1" alt="SQL" class="skill-icon" onerror="this.src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg'">
+          </div>
+          <p class="skill-name">SQL</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+          <p class="skill-score">9.0 / 10</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <img src="https://cdn.simpleicons.org/databricks/FF3621" alt="Databricks" class="skill-icon">
+          </div>
+          <p class="skill-name">Databricks</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+          <p class="skill-score">9.0 / 10</p>
+        </div>
+
+        <!-- <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <img src="https://cdn.simpleicons.org/microsoftazure/0078D4" alt="Azure" class="skill-icon">
+          </div>
+          <p class="skill-name">Azure Cloud</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+          <p class="skill-score">9.0 / 10</p>
+        </div> -->
+      <div class="skill-card">
+      <div class="skill-icon-wrap">
+        <svg class="skill-icon" width="24" height="24" viewBox="0 0 24 24" fill="#0078D4">
+          <path d="M5.2 19.2h13.6c1.1 0 2-.9 2-2 0-.8-.5-1.6-1.2-1.9-.1-2.7-2.3-4.9-5-4.9-.5 0-1 .1-1.5.2C12.4 8.6 10.4 7 8 7 5.2 7 3 9.2 3 12c0 .1 0 .3 0 .4C1.8 12.8 1 13.9 1 15.2c0 2.2 1.8 4 4.2 4z"/>
+        </svg>
+      </div>
+
+      <p class="skill-name">Azure Cloud</p>
+      <div class="skill-bar-track">
+        <div class="skill-bar-fill" data-width="90"></div>
+      </div>
+      <p class="skill-score">9.0 / 10</p>
+    </div>
+
+    
+        <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <img src="https://cdn.simpleicons.org/apachespark/E25A1C" alt="PySpark" class="skill-icon">
+          </div>
+          <p class="skill-name">PySpark</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="87"></div></div>
+          <p class="skill-score">8.7 / 10</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" class="skill-icon">
+          </div>
+          <p class="skill-name">Python</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+          <p class="skill-score">8.0 / 10</p>
+        </div>
+
+        <!-- Delta Lake: uploaded image -->
+        <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <img src="images/delta_lake.png" alt="Delta Lake" class="skill-icon skill-icon-dark">
+          </div>
+          <p class="skill-name">Delta Lake</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div>
+          <p class="skill-score">8.8 / 10</p>
+        </div>
+
+        <!-- <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <img src="https://cdn.simpleicons.org/azuredataFactory/0078D4" alt="ADF" class="skill-icon" onerror="this.src='https://cdn.simpleicons.org/microsoftazure/0078D4'">
+          </div>
+          <p class="skill-name">Azure ADF</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div>
+          <p class="skill-score">8.8 / 10</p>
+        </div> -->
+
+        <div class="skill-card">
+  <div class="skill-icon-wrap">
+    <svg class="skill-icon" width="32" height="32" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color:#1f5ea8"/>
+          <stop offset="100%" style="stop-color:#3a8fd8"/>
+        </linearGradient>
+      </defs>
+
+      <!-- Chimney -->
+      <rect x="10" y="5" width="14" height="30" rx="7" fill="url(#grad)"/>
+      <ellipse cx="17" cy="5" rx="7" ry="3" fill="#bcd6f5"/>
+
+      <!-- Factory base -->
+      <path d="M8 35 L28 20 L28 35 L42 20 L42 35 L56 35 L56 55 L8 55 Z" fill="url(#grad)"/>
+
+      <!-- Windows -->
+      <rect x="20" y="42" width="6" height="6" rx="1" fill="#ffffff"/>
+      <rect x="32" y="42" width="6" height="6" rx="1" fill="#ffffff"/>
+      <rect x="44" y="42" width="6" height="6" rx="1" fill="#ffffff"/>
+    </svg>
+  </div>
+
+  <p class="skill-name">Azure Data Factory</p>
+  <div class="skill-bar-track">
+    <div class="skill-bar-fill" data-width="90"></div>
+  </div>
+  <p class="skill-score">7.5 / 10</p>
+</div>
+
+        <!-- ADLS Gen2: uploaded image -->
+        <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <img src="images/adls.png" alt="ADLS Gen2" class="skill-icon skill-icon-dark">
+          </div>
+          <p class="skill-name">ADLS Gen2</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="86"></div></div>
+          <p class="skill-score">8.6 / 10</p>
+        </div>
+
+        <!-- Synapse: uploaded image -->
+        <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <img src="images/synapse.png" alt="Synapse" class="skill-icon skill-icon-dark">
+          </div>
+          <p class="skill-name">Synapse</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="82"></div></div>
+          <p class="skill-score">8.2 / 10</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <img src="https://cdn.simpleicons.org/postgresql/336791" alt="PostgreSQL" class="skill-icon">
+          </div>
+          <p class="skill-name">PostgreSQL</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85"></div></div>
+          <p class="skill-score">8.5 / 10</p>
+        </div>
+
+        <!-- <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <img src="https://cdn.simpleicons.org/amazonaws/FF9900" alt="AWS" class="skill-icon">
+          </div>
+          <p class="skill-name">AWS Cloud</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="60"></div></div>
+          <p class="skill-score">6.0 / 10</p>
+        </div> -->
+
+        <div class="skill-card">
+  <div class="skill-icon-wrap">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" 
+         alt="AWS" 
+         class="skill-icon">
+  </div>
+
+  <p class="skill-name">AWS Cloud</p>
+  <div class="skill-bar-track">
+    <div class="skill-bar-fill" data-width="60"></div>
+  </div>
+  <p class="skill-score">6.0 / 10</p>
+</div>
+
+        <!-- Databricks Asset Bundles: uploaded Databricks logo -->
+        <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <img src="images/databricks_dab.png" alt="DAB" class="skill-icon skill-icon-dark">
+          </div>
+          <p class="skill-name">Databricks Asset Bundles (DAB)</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+          <p class="skill-score">8.0 / 10</p>
+        </div>
+
+        <!-- Unity Catalog: uploaded image -->
+        <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <img src="images/unity_catalog.png" alt="Unity Catalog" class="skill-icon">
+          </div>
+          <p class="skill-name">Unity Catalog</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="82"></div></div>
+          <p class="skill-score">8.2 / 10</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon-wrap">
+            <img src="https://cdn.simpleicons.org/n8n/EA4B71" alt="n8n" class="skill-icon">
+          </div>
+          <p class="skill-name">n8n AI</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div>
+          <p class="skill-score">7.8 / 10</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- AI / GenAI Skills -->
+    <div class="skills-block skills-ai-block scroll-reveal">
+      <p class="skills-category-label ai-label">Artificial Intelligence &amp; GenAI</p>
+      <div class="skills-grid skills-grid-ai">
+
+        <div class="skill-card skill-card-ai">
+          <div class="skill-icon-wrap">
+            <!-- RAG: brain + retrieval custom icon -->
+            <svg viewBox="0 0 64 64" class="skill-icon skill-svg" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="g_rag" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#a855f7"/>
+                  <stop offset="100%" stop-color="#6366f1"/>
+                </linearGradient>
+              </defs>
+              <circle cx="32" cy="32" r="30" fill="url(#g_rag)" opacity=".15"/>
+              <!-- Brain halves -->
+              <path d="M32 18 C24 18 18 24 18 30 C18 34 20 37 23 39 L23 46 L32 46 L32 18Z" fill="none" stroke="url(#g_rag)" stroke-width="2.5" stroke-linejoin="round"/>
+              <path d="M32 18 C40 18 46 24 46 30 C46 34 44 37 41 39 L41 46 L32 46 L32 18Z" fill="none" stroke="url(#g_rag)" stroke-width="2.5" stroke-linejoin="round"/>
+              <line x1="32" y1="18" x2="32" y2="46" stroke="url(#g_rag)" stroke-width="1.5"/>
+              <!-- Magnifier -->
+              <circle cx="46" cy="50" r="7" fill="none" stroke="#a855f7" stroke-width="2.2"/>
+              <line x1="51" y1="55" x2="56" y2="60" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <p class="skill-name">RAG</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill ai-bar" data-width="75"></div></div>
+          <p class="skill-score">7.5 / 10</p>
+        </div>
+
+        <div class="skill-card skill-card-ai">
+          <div class="skill-icon-wrap">
+            <!-- LLM: chat/token icon -->
+            <svg viewBox="0 0 64 64" class="skill-icon skill-svg" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="g_llm" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#f43f8e"/>
+                  <stop offset="100%" stop-color="#fb923c"/>
+                </linearGradient>
+              </defs>
+              <circle cx="32" cy="32" r="30" fill="url(#g_llm)" opacity=".15"/>
+              <rect x="10" y="16" width="44" height="28" rx="8" fill="none" stroke="url(#g_llm)" stroke-width="2.5"/>
+              <polygon points="16,44 10,54 28,44" fill="url(#g_llm)" opacity=".7"/>
+              <circle cx="22" cy="30" r="4" fill="url(#g_llm)"/>
+              <circle cx="32" cy="30" r="4" fill="url(#g_llm)"/>
+              <circle cx="42" cy="30" r="4" fill="url(#g_llm)"/>
+            </svg>
+          </div>
+          <p class="skill-name">LLM</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill ai-bar" data-width="72"></div></div>
+          <p class="skill-score">7.2 / 10</p>
+        </div>
+
+        <div class="skill-card skill-card-ai">
+          <div class="skill-icon-wrap">
+            <!-- Gen-AI: sparkle neural net -->
+            <svg viewBox="0 0 64 64" class="skill-icon skill-svg" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="g_ai" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#22d3ee"/>
+                  <stop offset="100%" stop-color="#3b82f6"/>
+                </linearGradient>
+              </defs>
+              <circle cx="32" cy="32" r="30" fill="url(#g_ai)" opacity=".15"/>
+              <!-- Central hub -->
+              <circle cx="32" cy="32" r="7" fill="url(#g_ai)" opacity=".8"/>
+              <!-- Nodes -->
+              <circle cx="14" cy="20" r="4.5" fill="none" stroke="url(#g_ai)" stroke-width="2"/>
+              <circle cx="50" cy="20" r="4.5" fill="none" stroke="url(#g_ai)" stroke-width="2"/>
+              <circle cx="14" cy="44" r="4.5" fill="none" stroke="url(#g_ai)" stroke-width="2"/>
+              <circle cx="50" cy="44" r="4.5" fill="none" stroke="url(#g_ai)" stroke-width="2"/>
+              <!-- Connections -->
+              <line x1="18" y1="22" x2="27" y2="28" stroke="url(#g_ai)" stroke-width="1.6" opacity=".7"/>
+              <line x1="46" y1="22" x2="37" y2="28" stroke="url(#g_ai)" stroke-width="1.6" opacity=".7"/>
+              <line x1="18" y1="42" x2="27" y2="36" stroke="url(#g_ai)" stroke-width="1.6" opacity=".7"/>
+              <line x1="46" y1="42" x2="37" y2="36" stroke="url(#g_ai)" stroke-width="1.6" opacity=".7"/>
+              <!-- Sparkle -->
+              <line x1="32" y1="6" x2="32" y2="12" stroke="#22d3ee" stroke-width="2" stroke-linecap="round"/>
+              <line x1="32" y1="52" x2="32" y2="58" stroke="#22d3ee" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <p class="skill-name">Gen-AI</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill ai-bar" data-width="74"></div></div>
+          <p class="skill-score">7.4 / 10</p>
+        </div>
+
+        <div class="skill-card skill-card-ai">
+          <div class="skill-icon-wrap">
+            <!-- Vector DB: cylinder with vectors -->
+            <svg viewBox="0 0 64 64" class="skill-icon skill-svg" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="g_vdb" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#34d399"/>
+                  <stop offset="100%" stop-color="#06b6d4"/>
+                </linearGradient>
+              </defs>
+              <circle cx="32" cy="32" r="30" fill="url(#g_vdb)" opacity=".15"/>
+              <!-- DB cylinder -->
+              <ellipse cx="32" cy="18" rx="18" ry="6" fill="none" stroke="url(#g_vdb)" stroke-width="2.2"/>
+              <line x1="14" y1="18" x2="14" y2="40" stroke="url(#g_vdb)" stroke-width="2.2"/>
+              <line x1="50" y1="18" x2="50" y2="40" stroke="url(#g_vdb)" stroke-width="2.2"/>
+              <ellipse cx="32" cy="40" rx="18" ry="6" fill="none" stroke="url(#g_vdb)" stroke-width="2.2"/>
+              <!-- Vector arrow inside -->
+              <line x1="20" y1="30" x2="40" y2="30" stroke="url(#g_vdb)" stroke-width="2.2" marker-end="url(#arr_vdb)"/>
+              <defs>
+                <marker id="arr_vdb" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                  <polygon points="0,0 6,3 0,6" fill="#34d399"/>
+                </marker>
+              </defs>
+              <line x1="20" y1="36" x2="34" y2="36" stroke="url(#g_vdb)" stroke-width="1.5" opacity=".6"/>
+            </svg>
+          </div>
+          <p class="skill-name">Vector DB</p>
+          <div class="skill-bar-track"><div class="skill-bar-fill ai-bar" data-width="70"></div></div>
+          <p class="skill-score">7.0 / 10</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ════════════ EXPERIENCE ════════════ -->
+<div class="section-divider"></div>
+<section id="experience">
+  <div class="container">
+    <div class="section-header scroll-reveal">
+      <p class="section-eyebrow">Career Journey</p>
+      <h2 class="section-title">Work Experience</h2>
+    </div>
+
+    <div class="timeline">
+
+      <!-- Deloitte -->
+      <div class="exp-card scroll-reveal">
+        <div class="exp-accent-bar"></div>
+        <div class="exp-header">
+          
+          <div class="exp-logo-badge" style="font-weight:bold; font-size:18px; display:flex; align-items:center; justify-content:center;">
+            D<span style="color:#86BC25;">.</span>
+          </div>
+
+          <div>
+            <p class="exp-period">Sep 2025 — Present &nbsp;·&nbsp; Full-Time</p>
+            <h3 class="exp-job-title">Senior Data Engineer</h3>
+            <p class="exp-company">Deloitte Touche Tohmatsu &nbsp;·&nbsp; Big4 Consulting &nbsp;·&nbsp; Bengaluru, India</p>
+          </div>
+        </div>
+
+        <div class="exp-tags">
+          <span class="etag">Microsoft Fabric</span><span class="etag">Databricks</span>
+          <span class="etag">Delta Lake</span><span class="etag">PySpark</span>
+          <span class="etag">Medallion Arch.</span><span class="etag">ADLS Gen2</span>
+          <span class="etag">SQL</span><span class="etag">Data Modeling</span>
+        </div>
+
+        <ul class="exp-list">
+          <li>Integrated and processed large-scale assortment datasets from <strong>Microsoft Fabric Lakehouse</strong>, enabling seamless multi-region data access.</li>
+          <li>Designed and implemented <strong>Medallion Architecture (Bronze–Silver–Gold)</strong> to improve data quality, consistency, and reusability.</li>
+          <li>Developed scalable data transformation pipelines using <strong>Databricks and PySpark</strong> for complex assortment planning use cases.</li>
+          <li>Optimized data processing logic for performance and cost efficiency across large datasets.</li>
+          <li>Collaborated with business and backend teams to convert requirements into structured, analytics-ready data models.</li>
+        </ul>
+      </div>
+
+      <!-- Capgemini -->
+      <div class="exp-card scroll-reveal">
+        <div class="exp-accent-bar"></div>
+        <div class="exp-header">
+          
+          <div class="exp-logo-badge" style="display:flex; align-items:center; justify-content:center;">
+            <img src="images/cg.png" 
+                 alt="Capgemini" 
+                 style="width:28px; height:28px; object-fit:contain;">
+          </div>
+
+          <div>
+            <p class="exp-period">Apr 2022 — Sep 2025 &nbsp;·&nbsp; Full-Time</p>
+            <h3 class="exp-job-title">Data Engineer</h3>
+            <p class="exp-company">Capgemini &nbsp;·&nbsp; IT Services &amp; Consulting &nbsp;·&nbsp; Paris HQ</p>
+          </div>
+        </div>
+
+        <div class="exp-tags">
+          <span class="etag">Azure ADF</span>
+          <span class="etag">Azure Key Vault</span>
+          <span class="etag">Apache Spark</span><span class="etag">PySpark</span>
+          <span class="etag">Azure Cloud</span><span class="etag">SQL</span>
+          <span class="etag">Python</span><span class="etag">Databricks</span>
+          <span class="etag">Delta Lake</span><span class="etag">ADLS Gen2</span>
+        </div>
+
+        <ul class="exp-list">
+          <li>Led on-premise to <strong>Azure Cloud migration</strong> using Apache Spark, improving performance by <strong>20%</strong>.</li>
+          <li>Optimized Spark jobs using caching, partitioning, and joins, reducing execution time by <strong>10%</strong> for large datasets.</li>
+          <li>Designed and maintained scalable <strong>ETL pipelines</strong> across Retail, E-commerce, and Banking domains.</li>
+          <li>Built reusable transformation frameworks using <strong>PySpark and Delta Lake</strong>, improving team productivity.</li>
+          <li>Delivered end-to-end data solutions from ingestion to <strong>Gold layer analytics</strong> for enterprise clients.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+     
+
+<!-- ════════════ PROJECTS ════════════ -->
+<div class="section-divider"></div>
+<section id="projects">
+  <div class="container">
+    <div class="section-header scroll-reveal">
+      <p class="section-eyebrow">Portfolio</p>
+      <h2 class="section-title">Featured Projects</h2>
+    </div>
+
+    <div class="projects-grid">
+
+      <a href="https://github.com/abhishek-dataengineer/n8n_automation" target="_blank" class="project-card scroll-reveal">
+        <p class="proj-index">01 / 06</p>
+        <div class="proj-tags">
+          <span class="ptag ptag-red">n8n</span><span class="ptag ptag-red">AI Agent</span>
+          <span class="ptag ptag-red">Automation</span><span class="ptag ptag-red">LLM</span>
+        </div>
+        <h3 class="proj-title">n8n AI Workflow Automation</h3>
+        <p class="proj-desc">End-to-end agentic workflows — AI Agents, Gmail AI auto-reply, Google Task automation, and multi-step LLM-powered pipelines.</p>
+        <span class="proj-link">View on GitHub →</span>
+      </a>
+
+      <a href="https://github.com/abhishek-dataengineer/NycTaxi-Azure-Data-Engineer-Project" target="_blank" class="project-card scroll-reveal">
+        <p class="proj-index">02 / 06</p>
+        <div class="proj-tags">
+          <span class="ptag ptag-blue">Azure ADF</span><span class="ptag ptag-blue">ADLS Gen2</span>
+          <span class="ptag ptag-green">Databricks</span><span class="ptag ptag-green">Delta Lake</span>
+        </div>
+        <h3 class="proj-title">NYC Taxi Azure Data Pipeline</h3>
+        <p class="proj-desc">End-to-end Azure pipeline using ADF, Databricks, and ADLS Gen2 to ingest NYC Taxi data, transform across Bronze/Silver layers into query-ready Delta tables.</p>
+        <span class="proj-link">View on GitHub →</span>
+      </a>
+
+      <a href="https://github.com/abhishek-dataengineer/Databricks-Delta-Lake-Pipeline-with-Multi-Source-Integration" target="_blank" class="project-card scroll-reveal">
+        <p class="proj-index">03 / 06</p>
+        <div class="proj-tags">
+          <span class="ptag ptag-green">Delta Lake</span><span class="ptag ptag-green">Databricks</span>
+          <span class="ptag ptag-purple">Medallion</span>
+        </div>
+        <h3 class="proj-title">Delta Lake Multi-Source Pipeline</h3>
+        <p class="proj-desc">Production-grade Databricks pipeline with Bronze–Silver–Gold medallion architecture integrating multiple heterogeneous data sources seamlessly.</p>
+        <span class="proj-link">View on GitHub →</span>
+      </a>
+
+      <a href="https://github.com/abhishek-dataengineer/Spotify-Music-Dataset" target="_blank" class="project-card scroll-reveal">
+        <p class="proj-index">04 / 06</p>
+        <div class="proj-tags">
+          <span class="ptag ptag-green">Databricks</span><span class="ptag ptag-blue">Unity Catalog</span>
+          <span class="ptag ptag-purple">Delta Live Tables</span>
+        </div>
+        <h3 class="proj-title">Unity Catalog Databricks Project</h3>
+        <p class="proj-desc">End-to-end Databricks project using Unity Catalog, Delta Tables, and Delta Live Tables for governed, production-ready pipelines on Spotify music data.</p>
+        <span class="proj-link">View on GitHub →</span>
+      </a>
+
+      <a href="https://github.com/abhishek-dataengineer/Retail_Project" target="_blank" class="project-card scroll-reveal">
+        <p class="proj-index">05 / 06</p>
+        <div class="proj-tags">
+          <span class="ptag ptag-green">Pandas</span><span class="ptag ptag-green">PySpark</span>
+          <span class="ptag ptag-green">Python</span>
+        </div>
+        <h3 class="proj-title">Retail Customer Data Processing</h3>
+        <p class="proj-desc">End-to-end retail data cleaning and manipulation pipeline showcasing core data engineering skills using PySpark and Pandas at production scale.</p>
+        <span class="proj-link">View on GitHub →</span>
+      </a>
+
+      <a href="https://github.com/abhishek-dataengineer/Customer_Transaction_Analysis" target="_blank" class="project-card scroll-reveal">
+        <p class="proj-index">06 / 06</p>
+        <div class="proj-tags">
+          <span class="ptag ptag-blue">PostgreSQL</span><span class="ptag ptag-blue">Analytics</span>
+          <span class="ptag ptag-blue">Banking</span>
+        </div>
+        <h3 class="proj-title">Customer Transaction Analysis</h3>
+        <p class="proj-desc">PostgreSQL analysis on banking transaction data delivering actionable insights for data-driven decision-making and business strategy optimization.</p>
+        <span class="proj-link">View on GitHub →</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ EDUCATION ════════════ -->
+<div class="section-divider"></div>
+<section id="education">
+  <div class="container">
+    <div class="section-header scroll-reveal">
+      <p class="section-eyebrow">Background</p>
+      <h2 class="section-title">Education &amp; Certifications</h2>
+    </div>
+
+    <div class="edu-grid scroll-reveal">
+      <div class="edu-card">
+        <p class="edu-year">2017 — 2021</p>
+        <h3 class="edu-degree">Bachelor of Technology (B.Tech)</h3>
+        <p class="edu-inst">Sagar Institute of Research &amp; Technology — Excellence</p>
+        <span class="edu-result">🎓 First Class</span>
+      </div>
+      <div class="edu-card">
+        <p class="edu-year">2016 — 2017</p>
+        <h3 class="edu-degree">Higher Secondary School (XII)</h3>
+        <p class="edu-inst">P.L.S College, Masaurhi, Patna · BSEB Board</p>
+        <span class="edu-result">📘 Second Class</span>
+      </div>
+    </div>
+
+    <div class="section-header scroll-reveal" style="margin-top:3.5rem; margin-bottom:1.5rem">
+      <p class="section-eyebrow">Certifications</p>
+    </div>
+
+    <div class="certs-grid scroll-reveal">
+      <div class="cert-card">
+        <img src="https://img.icons8.com/color/48/azure-1.png"  alt="Azure" class="cert-icon">
+        <div>
+          <h4 class="cert-title">Microsoft Certified: Azure Data Engineer Associate</h4>
+          <p class="cert-org">DP-200 · Microsoft</p>
+          <span class="cert-pill">Certified</span>
+        </div>
+      </div>
+      <div class="cert-card">
+        <img src="https://cdn.simpleicons.org/databricks/FF3621" alt="Databricks" class="cert-icon">
+        <div>
+          <h4 class="cert-title">Databricks Data Engineer Associate</h4>
+          <p class="cert-org">Databricks Academy</p>
+          <span class="cert-pill">Certified</span>
+        </div>
+      </div>
+      <div class="cert-card">
+        <img src="https://cdn.simpleicons.org/apachespark/E25A1C" alt="Spark" class="cert-icon">
+        <div>
+          <h4 class="cert-title">PySpark &amp; Apache Spark</h4>
+          <p class="cert-org">Big Data Processing · Udemy</p>
+          <span class="cert-pill">Completed</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ CONTACT ════════════ -->
+<div class="section-divider"></div>
+<section id="contact">
+  <div class="container">
+    <div class="contact-wrap">
+      <div class="scroll-reveal">
+        <p class="section-eyebrow" style="justify-content:center">Get In Touch</p>
+        <h2 class="section-title" style="text-align:center; margin-bottom:.5rem">Let's Build Together</h2>
+        <p class="contact-sub">Open to Senior Data Engineer, Cloud &amp; Big Data Engineering roles.<br>Let's connect and create something impactful.</p>
+      </div>
+
+      <div class="contact-grid scroll-reveal">
+        <a href="mailto:codecomet.query@gmail.com" class="contact-card">
+          <span class="contact-card-icon">✉️</span>
+          <p class="contact-card-label">Email</p>
+          <p class="contact-card-val">codecomet.query@gmail.com</p>
+        </a>
+        <a href="https://www.linkedin.com/in/abhishek0709/" target="_blank" class="contact-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" width="28" class="contact-card-icon-img">
+          <p class="contact-card-label">LinkedIn</p>
+          <p class="contact-card-val">in/abhishek0709</p>
+        </a>
+        <a href="https://github.com/abhishek-dataengineer" target="_blank" class="contact-card">
+          <img src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub" width="28" class="contact-card-icon-img">
+          <p class="contact-card-label">GitHub</p>
+          <p class="contact-card-val">abhishek-dataengineer</p>
+        </a>
+        <a href="https://www.youtube.com/@abkumar-yt" target="_blank" class="contact-card contact-card-yt">
+          <img src="https://cdn.simpleicons.org/youtube/FF0000" alt="YouTube" width="28" class="contact-card-icon-img">
+          <p class="contact-card-label">YouTube</p>
+          <p class="contact-card-val">@abkumar-yt</p>
+        </a>
+      </div>
+
+      <div class="scroll-reveal" style="text-align:center; margin-top:2.5rem">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfj0-6El8BwDZCAUwArSzHVZSSVkrw39FJFx4SruBOfiFBgEw/viewform"
+           target="_blank" class="btn-send-msg">
+          Send a Message →
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ FOOTER ════════════ -->
+<footer>
+  <p class="footer-text">© 2025 Abhishek Kumar &nbsp;·&nbsp; Senior Data Engineer &nbsp;·&nbsp; Bengaluru, India</p>
+  <div class="footer-socials">
+    <a href="https://www.linkedin.com/in/abhishek0709/" target="_blank" class="footer-social" aria-label="LinkedIn">
+      <img src="https://cdn.simpleicons.org/linkedin/ffffff" width="16" height="16" alt="LinkedIn">
+    </a>
+    <a href="https://github.com/abhishek-dataengineer" target="_blank" class="footer-social" aria-label="GitHub">
+      <img src="https://cdn.simpleicons.org/github/ffffff" width="16" height="16" alt="GitHub">
+    </a>
+    <a href="https://www.youtube.com/@abkumar-yt" target="_blank" class="footer-social footer-yt" aria-label="YouTube">
+      <img src="https://cdn.simpleicons.org/youtube/FF0000" width="16" height="16" alt="YouTube">
+    </a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
